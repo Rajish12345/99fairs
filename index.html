@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>99Fairs</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+	<header>
+		
+		<div class="center clearfix">
+
+			<div class="searchbox">
+				
+				<input type="text" name="searchbox" placeholder="Search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+
+			</div>
+			
+			<ul>
+				
+				<li>
+					
+					<a href="#" class="active">Home</a>
+					<a href="#">About Us</a>
+					<a href="#">Contact Us</a>
+		
+				</li>
+
+			</ul>
+
+		</div>
+
+	</header>
+
+	<div class="banner clearfix">
+
+		<div class="laptop">
+			
+  				<img class="mySlides" src="images/background.jpg" style="width:100%">
+  				<img class="mySlides" src="images/bkg2.jpg" style="width:100%">
+
+			<script>
+				var myIndex = 0;
+				carousel();
+				function carousel() {
+    			var i;
+    			var x = document.getElementsByClassName("mySlides");
+    			for (i = 0; i < x.length; i++) {
+       			x[i].style.display = "none";  
+    			}
+    			myIndex++;
+    			if (myIndex > x.length) {myIndex = 1}    
+    			x[myIndex-1].style.display = "block";  
+    			setTimeout(carousel, 20000); // Change image every 2 seconds
+				}
+			</script>
+
+			<div class="centered">#99<b>Fairs</b></div>
+			<div class="centered2"><a href="#" class="active">learn more</a></div>
+		
+		</div>
+	
+	</div>
+
+	<div class="services">
+		
+		<div class="center clearfix">
+
+			<div class="ourservices">
+				
+				Our Services
+
+			</div>
+			
+			<div class="graphic">
+				
+				graphic design
+
+			</div>
+
+			<div class="middle">
+				
+				web design
+
+			</div>
+
+			<div class="video">
+				
+				video editing
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="monitor">
+		
+		<div class="center clearfix">
+			
+			<div class="image">
+				
+				<img src="images/99fairs.png">
+
+			</div>
+
+			<div class="para">
+				
+				<p>We <b>love</b> what we do & <br> we do it with <strong>passion</strong>.</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="team">
+		
+		<div class="center clearfix">
+			
+			<div class="cd">
+				
+				<h1>For the creative designs</h1>
+
+			</div>
+
+			<div class="ot">
+				
+				<h1>Try Our Team</h1>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- <div class="test">div1</div> -->
+	<!-- <div class="test">div2</div> -->
+
+</body>
+</html>
